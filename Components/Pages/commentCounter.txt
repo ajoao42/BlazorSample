@@ -1,0 +1,22 @@
+
+//  <summary>
+/// Descreve de forma sucinta o objetivo principal do elemento acima (método, propriedade ou classe).
+/// Explique o que ele faz, qual problema resolve e qualquer comportamento notável.
+/// </summary>
+/// <param name="param1">Descrição do primeiro parâmetro: propósito, valores esperados e restrições.</param>
+/// <param name="param2">Descrição do segundo parâmetro (se aplicável): formato, intervalo e impacto no resultado.</param>
+/// <returns>Descreva o que é retornado, incluindo tipo e significado dos valores possíveis.</returns>
+/// <exception cref="ArgumentNullException">Indica que um parâmetro obrigatório foi passado como nulo.</exception>
+/// <exception cref="ArgumentException">Indica que um parâmetro possui um valor inválido ou fora do intervalo esperado.</exception>
+/// <remarks>
+/// Observações adicionais sobre a implementação: complexidade de desempenho, efeitos colaterais, estados internos alterados,
+/// comportamento em cenários fronteira e dependências externas relevantes.
+/// </remarks>
+/// <example>
+/// Exemplo de uso:
+/// // Demonstra um caso típico de chamada
+/// var resultado = NomeDoMetodo(param1, param2);
+/// </example>
+/// <seealso cref="OutraClasseOuMetodo">Referência para API relacionada ou documentação complementar.</seealso>
+/// <author>Autor: Seu Nome ou Equipe</author>
+/// <created>Data de criação: AAAA-MM-DD</created>*/
