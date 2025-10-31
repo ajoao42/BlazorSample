@@ -20,3 +20,6 @@
 /// <seealso cref="OutraClasseOuMetodo">Referência para API relacionada ou documentação complementar.</seealso>
 /// <author>Autor: Seu Nome ou Equipe</author>
 /// <created>Data de criação: AAAA-MM-DD</created>*/
+https://builds.dotnet.microsoft.com/dotne<t/install/dotnet_basic_config_website.winget
+405013461325
+468699841226
