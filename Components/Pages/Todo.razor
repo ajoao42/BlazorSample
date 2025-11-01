@@ -1,24 +1,40 @@
 ﻿@page "/todo"
 @rendermode InteractiveServer
 
+<!-- --- IGNORE
+Crie um novo arquivo TodoItem.cs  na raiz do projeto (o mesmo nível que Program.cs) e 
+    adicione a seguinte classe C# a ele.
+public class TodoItem
+{
+    public string Title { get; set; } = string.Empty;
+    public bool IsDone { get; set; } = false;      
+}    
+--->
+
 <h3>Todo (@todoItems.Count(todo => !todo.IsDone)) </h3>
 
-@code {
-    private List<TodoItem> todoItems = new List<TodoItem>();
-}
+<!-- Lista de Tarefas 
+Em Todo.razor, adicionar um campo para a lista de itens to-do no bloco 'code."
+-->
+
 <ul>
     @foreach (TodoItem todo in todoItems)
     {
         <li>
-       
-         <InputCheckbox @bind-Value="todo.IsDone" />
-            @todo.Title
+         <input type ="checkbox" @bind="todo.IsDone" />
+         <input  @bind ="todo.Title" />
         </li>
     }       
 </ul>
+
+<!-- Adicionar Novas Tarefas
+Adicione um campo de entrada e um botão para adicionar novos itens à lista de tarefas.
+ ---->     
 <input @bind ="newTodo" />
 <button @onclick="AddTodo"> Add Todo</button>
+
 @code {
+    List<TodoItem> todoItems = new List<TodoItem>();
     private string newTodo = string.Empty;
 
     void AddTodo()
