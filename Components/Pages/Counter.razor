@@ -10,8 +10,11 @@
 
 
 <button class="btn btn-primary" @onclick="IncrementCount">Clickme</button>
+<!-- Text Input to change the counter value directly -->
+<!--
 <input type="text" @bind="currentCount" /> 
-<p role = "status">Resultado: @currentCount</p>
+ -->
+<!--<p role = "status">Resultado: @currentCount</p>-->
 
 @code {
     private int currentCount = 0;
@@ -26,7 +29,7 @@
     }   
 }
   
-<input @onchange="InputChanged" />
+<!--<input @onchange="InputChanged" />
 <p>@message</p>
 @code {
     string message = "";
@@ -34,5 +37,5 @@
     {
        message = currentCount.ToString();
     }
-}
+} -->
     
